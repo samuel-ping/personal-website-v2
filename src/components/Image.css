@@ -1,0 +1,18 @@
+/* .image-container {
+} */
+
+.image {
+  max-height: 100vh;
+  zoom: 1.1;
+}
+
+/* For progressive image loading */
+/* .full {
+  transition: opacity 400ms ease 0ms;
+}
+
+.thumbnail {
+  filter: blur(20px);
+  transform: scale(1.1);
+  transition: visibility 0ms ease 400ms;
+} */

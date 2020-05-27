@@ -1,0 +1,40 @@
+.landing-wrapper {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.landing-left-side {
+  width: 60%;
+  background-color: #2c5c44;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-intro {
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.tagline {
+  display: flex;
+  flex-direction: row;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.rutgers {
+  transition-duration: 200ms;
+}
+
+.rutgers:hover {
+  color: #cd5c5c;
+}
+
+.landing-right-side {
+  width: auto;
+  overflow: hidden;
+}
