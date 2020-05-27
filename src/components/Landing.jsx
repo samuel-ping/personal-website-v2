@@ -15,8 +15,7 @@ class Landing extends Component {
           <div className="landing-left-side">
             <div className="name-intro">Hey! I'm Sam,</div>
             <div className="tagline">
-              an aspiring CS major at
-              <div className="rutgers">Rutgers University- New Brunswick</div>.
+              an aspiring CS major at Rutgers University- New Brunswick.
             </div>
             <Iconbar />
           </div>
