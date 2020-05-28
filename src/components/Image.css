@@ -6,7 +6,10 @@
 
 .image {
   max-height: 100vh;
+<<<<<<< HEAD
   zoom: 1.2;
+=======
+>>>>>>> 355508166f9041f5eee1cf103637b82873e09a56
 }
 
 /* For progressive image loading */
