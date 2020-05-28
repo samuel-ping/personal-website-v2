@@ -1,14 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import Iconbar from "./Iconbar";
 import Image from "./Image";
 import "./Landing.css";
 
-class Landing extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
+const Landing = () => {
     return (
       <>
         <div className="landing-wrapper">
@@ -26,6 +21,6 @@ class Landing extends Component {
       </>
     );
   }
-}
+
 
 export default Landing;
