@@ -19,11 +19,27 @@ const AboutMe = () => {
   return (
     <>
       <div className="about-me-wrapper">
-        <div className={isVisible ? "page-header" : undefined} ref={domRef}>
+        <div
+          className={isVisible ? "page-header" : undefined}
+          style={
+            isVisible ? { visibility: "visible" } : { visibility: "hidden" }
+          }
+          ref={domRef}
+        >
           About Me
         </div>
-        <div className={isVisible ? "vertical-divider" : undefined} />
-        <div className={isVisible ? "description" : undefined}>
+        <div
+          className={isVisible ? "vertical-divider" : undefined}
+          style={
+            isVisible ? { visibility: "visible" } : { visibility: "hidden" }
+          }
+        />
+        <div
+          className={isVisible ? "description" : undefined}
+          style={
+            isVisible ? { visibility: "visible" } : { visibility: "hidden" }
+          }
+        >
           Hi! I'm Samuel Ping, and I'm a freshman at Rutgers University- New
           Brunswick studying computer science and business. Back in 3rd grade, I
           wanted to be an inventor when I grew up. I forgot about that ambition
