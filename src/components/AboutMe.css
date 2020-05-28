@@ -1,0 +1,62 @@
+.about-me-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d8f6d;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.page-header {
+  font-size: 4vw;
+  animation: fadeInFromLeft 0.8s ease-in;
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    transform: translateX(-20%);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.vertical-divider {
+  border-left: 0.3em solid #ffffff;
+  height: 20vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  animation: expandLine 0.8s ease-in 0.2s;
+}
+
+@keyframes expandLine {
+  from {
+    height: 0;
+  }
+  to {
+    height: 20vh;
+  }
+}
+
+.description {
+  display: flex;
+  align-items: center;
+  height: 50vh;
+  width: 45vw;
+  font-size: 2em;
+  animation: fadeInFromRight 0.8s ease-in;
+}
+
+@keyframes fadeInFromRight {
+  from {
+    transform: translateX(20%);
+    opacity: 0.3;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
