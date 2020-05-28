@@ -1,0 +1,10 @@
+.projects-wrapper {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header {
+  font-size: 4vw;
+}
