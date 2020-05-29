@@ -3,6 +3,7 @@
   text-decoration: none;
   width: 2vw;
   height: 2vw;
+  margin-left: 0.5vw;
   transition: opacity 0.2s;
 }
 
