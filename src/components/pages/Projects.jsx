@@ -49,7 +49,7 @@ const Projects = (props) => {
       description:
         "My personal website! I didn't like my first one, so I remade it.",
       description2:
-        "The <a href='https://samuel-ping.github.io/personal-website-v1' target='_blank' rel='noopener noreferrer'>original version of my personal website</a> was also my first time using React. I built it after Food Mood, so I had a basic understanding of web development and wanted to transfer that knowledge to React. While my first website was a bit of a mess, I do think my skills are now much more polished. While I'm not the best at it, at least I know I'm capable of cranking out a website now!",
+        "The <a href='https://samuel-ping.github.io/personal-website-v1' target='_blank' rel='noopener noreferrer'>original version of my personal website</a> was also my first time using React. I built it after Food Mood v1, so I had a basic understanding of web development and wanted to transfer that knowledge to React. Frankly, my first website was a bit of a mess, but I do think I'm a bit better at web development now. While I'm not the best at it, at least I know I'm capable of cranking out a website if I need to!",
       technologies: "React.js",
     },
     rutgersbusfinder: {
@@ -57,9 +57,9 @@ const Projects = (props) => {
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/rutgers-bus-finder",
       description:
-        "This project was built during HackRU Fall 2019. It takes in any two bus stops at Rutgers, and spits out all the buses that are currently running between those two stops.",
+        "This program takes in the names of any two bus stops at Rutgers, and spits out all the buses that are currently running between those two stops.",
       description2:
-        "This was my and my group's first time using an API! I helped work on the algorithm which parsed the list of buses and bus routes retrieved from the Rutgers bus API for the currently running buses.",
+        "This project was built during HackRU Fall 2019, and was me and my group's first time using an API! I helped work on the algorithm which parsed the list of buses and bus routes retrieved from the Rutgers bus API for the currently running buses. Looking back on it, the time complexity of our algorithm was like O(n^2), if not worse...",
       technologies: "Java",
     },
   };
