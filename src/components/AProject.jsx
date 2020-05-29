@@ -60,10 +60,13 @@ const AProject = (props) => {
           </div>
           <div className="a-project-description">{props.description}</div>
           {props.description2 ? (
-            <div className="a-project-description">
+            <>
               <br />
-              {props.description2}
-            </div>
+              <div
+                className="a-project-description"
+                dangerouslySetInnerHTML={{ __html: props.description2 }}
+              />
+            </>
           ) : null}
           <div className="a-project-technologies">
             Technologies used: {props.technologies}

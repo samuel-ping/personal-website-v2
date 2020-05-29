@@ -14,7 +14,7 @@ const Projects = (props) => {
       description:
         "A web app that uses Amazon's Rekognition API and Yelp's Fusion API to suggest a restaurant based off of your visible emotion! The website is deployed on an AWS EC2 instance, using Nginx as a reverse proxy.",
       description2:
-        "The original Food Mood (https://oldmyfoodmood.herokuapp.com) was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but quickly learned that hiding any API keys was a no go this way. I learned about Node.js and Express.js and decided to hail mary it and learn how to create a backend. This is one of my greatest accomplishments, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended, I decided to continue working on this project, and revamped the whole website with React and deployed it on AWS EC2 to avoid the slow loading times of Heroku.",
+        "The <a href='https://oldmyfoodmood.herokuapp.com' target='_blank' rel='noopener noreferrer'>original Food Mood</a> was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but quickly learned that hiding any API keys was a no go this way. I learned about Node.js and Express.js and decided to hail mary it and learn how to create a backend. This is one of my greatest accomplishments, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended, I decided to continue working on this project, and revamped the whole website with React and deployed it on AWS EC2 to avoid the slow loading times of Heroku.",
       technologies:
         "React.js, Express.js, Node.js, Nginx, AWS EC2, CodePipeline & CodeDeploy",
     },
@@ -40,7 +40,7 @@ const Projects = (props) => {
       description:
         "My personal website! I didn't like my first one, so I remade it.",
       description2:
-        "The original version of my personal website (https://samuel-ping.github.io/personal-website-v1) was also my first time using React. I built it after Food Mood, so I had a basic understanding of web development and wanted to transfer that knowledge to React. While my first website was a bit of a mess, I do think my skills are now much more polished. While I'm not the best at it, at least I know I'm capable of cranking out a website now!",
+        "The <a href='https://samuel-ping.github.io/personal-website-v1' target='_blank' rel='noopener noreferrer'>original version of my personal website</a> was also my first time using React. I built it after Food Mood, so I had a basic understanding of web development and wanted to transfer that knowledge to React. While my first website was a bit of a mess, I do think my skills are now much more polished. While I'm not the best at it, at least I know I'm capable of cranking out a website now!",
       technologies: "React.js",
     },
     rutgersbusfinder: {
