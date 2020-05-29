@@ -1,5 +1,5 @@
 .about-me-wrapper {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,7 +11,7 @@
 
 .page-header {
   font-size: 4vw;
-  animation: fadeInFromLeft 0.8s ease-in-out 0.4s both;
+  animation: fadeInFromLeft 0.8s ease-in-out 0.2s both;
   opacity: 0;
 }
 
@@ -50,7 +50,7 @@
   width: 45vw;
   font-size: 1.7vw;
   opacity: 0;
-  animation: fadeInFromRight 0.8s ease-in-out 0.4s both;
+  animation: fadeInFromRight 0.8s ease-in-out 0.2s both;
 }
 
 @keyframes fadeInFromRight {

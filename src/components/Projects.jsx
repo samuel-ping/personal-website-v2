@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="projects-header">Projects</div>
       <div className="projects-list-container">
         <AProject
-          title="Food Mood"
+          title="Food Mood v2"
           hasGitHub="true"
           githubLink="https://github.com/samuel-ping/food-mood"
           hasWebsite="true"
@@ -28,7 +28,7 @@ const Projects = () => {
           technologies="React.js, Express.js, MongoDB Atlas"
         />
         <AProject
-          title="Personal Website"
+          title="Personal Website v2"
           hasGitHub="true"
           githubLink="https://github.com/samuel-ping/personal-website"
           hasWebsite="true"

@@ -1,3 +1,3 @@
 # Personal Website
 
-I'm remaking my personal website.
+My personal website! Built with using React.js.

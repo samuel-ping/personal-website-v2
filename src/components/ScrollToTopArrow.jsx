@@ -16,7 +16,7 @@ class ScrollToTopArrow extends Component {
   }
 
   toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.pageYOffset > 100) {
       this.setState({ isVisible: true });
     } else {
       this.setState({ isVisible: false });
