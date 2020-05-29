@@ -1,6 +1,6 @@
 import React from "react";
-import Iconbar from "./Iconbar";
-import Image from "./Image";
+import Iconbar from "../Iconbar";
+import Image from "../Image";
 import "./Landing.css";
 
 const Landing = () => {

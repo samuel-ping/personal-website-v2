@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import ScrollToTopArrow from "./components/ScrollToTopArrow";
-import Landing from "./components/Landing";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
+import Landing from "./components/pages/Landing";
+import AboutMe from "./components/pages/AboutMe";
+import Projects from "./components/pages/Projects";
+import Footer from "./components/pages/Footer";
 
 class App extends Component {
   componentDidMount() {
@@ -33,6 +34,7 @@ class App extends Component {
           <Landing />
           <AboutMe />
           <Projects />
+          <Footer />
         </div>
       </>
     );
