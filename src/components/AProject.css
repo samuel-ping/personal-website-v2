@@ -1,0 +1,40 @@
+.a-project-wrapper {
+  background-color: #4d8f6d;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  margin: 1vh 5vw;
+  padding: 3vh 3vw;
+  border-radius: 25px;
+  transition: background-color 0.1s;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.a-project-wrapper:hover {
+  background-color: #184e68;
+}
+
+.a-project-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.a-project-top-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.3vh solid #ffffff;
+  margin-bottom: 1vh;
+}
+
+.a-project-title {
+  font-size: 2.5vw;
+}
+
+.a-project-description {
+}
+
+.a-project-technologies {
+  font-weight: 700;
+  margin-top: 2vh;
+}

@@ -1,24 +1,16 @@
-import React, { Component } from "react";
-import IconButton from "./IconButton";
+import React from "react";
+import IconBarButton from "./IconBarButton";
 import "./Iconbar.css";
 
-class Iconbar extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <>
-        <div className="iconbar-wrapper">
-          <IconButton isGitHub="true" />
-          <IconButton isLinkedIn="true" />
-          <IconButton isResume="true" />
-          <IconButton isEmail="true" />
-        </div>
-      </>
-    );
-  }
-}
+const Iconbar = () => {
+  return (
+    <div className="iconbar-wrapper">
+      <IconBarButton isGitHub="true" />
+      <IconBarButton isLinkedIn="true" />
+      <IconBarButton isResume="true" />
+      <IconBarButton isEmail="true" />
+    </div>
+  );
+};
 
 export default Iconbar;

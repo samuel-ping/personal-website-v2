@@ -59,6 +59,6 @@
   bottom: 0;
   background: #4d8f6d;
   z-index: 0;
-  transform: skewY(5deg);
+  transform: skewY(5deg) translateY(10%);
   transform-origin: top left;
 }

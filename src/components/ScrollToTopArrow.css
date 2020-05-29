@@ -1,20 +1,25 @@
-.arrow-wrapper {
-  color: #ffffff;
+.show-arrow {
   position: fixed;
   z-index: 100;
-  bottom: 5vh;
-  right: 5vh;
-  height: 5vh;
-  width: 5vw;
+  bottom: 3vh;
+  right: 0.75vw;
   cursor: pointer;
-  animation: slideIn 0.2s ease-in;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateX(50%);
-  }
-  to {
-    transform: translateX(0);
-  }
+.hide-arrow {
+  opacity: 0;
+  position: fixed;
+}
+
+.arrow-wrapper {
+  color: #ffffff;
+  height: 5vh;
+  width: 5vw;
+  transition: opacity 0.1s;
+}
+
+.arrow-wrapper:hover {
+  opacity: 0.5;
 }

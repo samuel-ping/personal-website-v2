@@ -1,4 +1,5 @@
 .about-me-wrapper {
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,13 +11,14 @@
 
 .page-header {
   font-size: 4vw;
-  animation: fadeInFromLeft 0.8s ease-in 0.2s forwards;
+  animation: fadeInFromLeft 0.8s ease-in-out 0.4s both;
+  opacity: 0;
 }
 
 @keyframes fadeInFromLeft {
   from {
     transform: translateX(-20%);
-    opacity: 0.3;
+    opacity: 0;
   }
   to {
     transform: translateX(0);
@@ -29,7 +31,7 @@
   height: 20vh;
   margin-left: 4vw;
   margin-right: 4vw;
-  /* animation: expandLine 0.8s ease-in 0.2s forwards; */
+  animation: expandLine 0.8s ease-in 0.2s both;
 }
 
 @keyframes expandLine {
@@ -46,15 +48,15 @@
   align-items: center;
   height: 50vh;
   width: 45vw;
-  font-size: 2em;
+  font-size: 1.7vw;
   opacity: 0;
-  animation: fadeInFromRight 0.8s ease-in 0.2s forwards;
+  animation: fadeInFromRight 0.8s ease-in-out 0.4s both;
 }
 
 @keyframes fadeInFromRight {
   from {
     transform: translateX(20%);
-    opacity: 0.3;
+    opacity: 0;
   }
   to {
     transform: translateX(0);
