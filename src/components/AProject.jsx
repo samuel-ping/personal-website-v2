@@ -35,10 +35,13 @@ const AProject = (props) => {
         </div>
         <div className="a-project-description-mobile">{props.description}</div>
         {props.description2 ? (
-          <div className="a-project-description-mobile">
+          <>
             <br />
-            {props.description2}
-          </div>
+            <div
+              className="a-project-description-mobile"
+              dangerouslySetInnerHTML={{ __html: props.description2 }}
+            />
+          </>
         ) : null}
         <div className="a-project-technologies-mobile">
           Technologies used: {props.technologies}

@@ -67,6 +67,14 @@
   font-size: 5vw;
 }
 
+.a-project-description-mobile a {
+  color: #c261a3;
+}
+
+.a-project-description-mobile a:hover {
+  color: #8f4d7a;
+}
+
 .a-project-technologies-mobile {
   font-weight: 700;
   margin-top: 2vh;
