@@ -35,3 +35,23 @@
   opacity: 0.5;
   transform: scale(1, 1);
 }
+
+/* Mobile */
+.button-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 20vw;
+  margin-right: 0.8vw;
+  margin-left: 0.8vw;
+  border-radius: 50%;
+  border: 0.2em solid #ffffff;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon-mobile {
+  height: 8vw;
+  width: 8vw;
+}

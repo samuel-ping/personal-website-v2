@@ -1,9 +1,11 @@
+/* Desktop & Tablet */
 .landing-wrapper {
   color: #ffffff;
   display: flex;
   flex-direction: row;
   height: 100vh;
   width: 100%;
+  font-weight: 500;
 }
 
 .landing-left-side {
@@ -30,7 +32,6 @@
 
 .name-intro {
   font-size: 4vw;
-  font-weight: 500;
 }
 
 .tagline {
@@ -39,7 +40,6 @@
   align-items: center;
   justify-content: center;
   font-size: 2vw;
-  font-weight: 500;
 }
 
 .divider {
@@ -61,4 +61,28 @@
   z-index: 0;
   transform: skewY(5deg) translateY(10%);
   transform-origin: top left;
+}
+
+/* Mobile */
+.landing-wrapper-mobile {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+.name-intro-mobile {
+  font-size: 12vw;
+}
+
+.tagline-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
 }

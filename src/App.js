@@ -10,6 +10,7 @@ class App extends Component {
     super(props);
     this.state = { isMobile: false };
   }
+
   componentDidMount() {
     ((a) => {
       if (
@@ -20,12 +21,12 @@ class App extends Component {
           a.substr(0, 4)
         )
       )
-        this.state.isMobile = true;
-      if (this.state.isMobile) {
-        alert(
-          "Hey! Do yourself a favor and don't look at this website on your phone. It's horrific. But I'm not stopping you."
-        );
-      }
+        this.setState({ isMobile: true });
+      // if (this.state.isMobile) {
+      //   alert(
+      //     "Hey! Do yourself a favor and don't look at this website on your phone. It's horrific. But I'm not stopping you."
+      //   );
+      // }
     })(navigator.userAgent || navigator.vendor || window.opera);
   }
 
