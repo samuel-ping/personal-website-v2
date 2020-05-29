@@ -28,8 +28,21 @@ class ScrollToTopArrow extends Component {
   };
 
   render() {
-    return (
-      <>
+    if (this.props.isMobile) {
+      return (
+        <div
+          onClick={this.scrollToTop}
+          className={
+            this.state.isVisible ? "show-arrow-mobile" : "hide-arrow-mobile"
+          }
+        >
+          <IconContext.Provider value={{ className: "arrow-wrapper-mobile" }}>
+            <ArrowIcon />
+          </IconContext.Provider>
+        </div>
+      );
+    } else {
+      return (
         <div
           onClick={this.scrollToTop}
           className={this.state.isVisible ? "show-arrow" : "hide-arrow"}
@@ -38,8 +51,8 @@ class ScrollToTopArrow extends Component {
             <ArrowIcon />
           </IconContext.Provider>
         </div>
-      </>
-    );
+      );
+    }
   }
 }
 

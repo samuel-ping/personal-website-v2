@@ -4,6 +4,7 @@ import Landing from "./components/pages/Landing";
 import AboutMe from "./components/pages/AboutMe";
 import Projects from "./components/pages/Projects";
 import Footer from "./components/pages/Footer";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
@@ -33,11 +34,11 @@ class App extends Component {
   render() {
     return (
       <>
-        <ScrollToTopArrow />
+        <ScrollToTopArrow isMobile={this.state.isMobile} />
         <div>
           <Landing isMobile={this.state.isMobile} />
-          <AboutMe />
-          <Projects />
+          <AboutMe isMobile={this.state.isMobile} />
+          <Projects isMobile={this.state.isMobile} />
           <Footer />
         </div>
       </>
