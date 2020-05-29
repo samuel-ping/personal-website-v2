@@ -42,6 +42,7 @@ const Projects = () => {
           hasGitHub="true"
           githubLink="https://github.com/samuel-ping/rutgers-bus-finder"
           description="This project was built during HackRU Fall 2019. It takes in any two bus stops at Rutgers, and spits out all the buses that are currently running between those two stops."
+          description2="This was my and my group's first time using an API! I helped work on the algorithm which parsed the list of buses and bus routes retrieved from the Rutgers bus API for the currently running buses."
           technologies="Java"
         />
       </div>
