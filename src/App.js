@@ -6,8 +6,11 @@ import Projects from "./components/pages/Projects";
 import Footer from "./components/pages/Footer";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { isMobile: false };
+  }
   componentDidMount() {
-    var isMobile = false;
     ((a) => {
       if (
         /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(
@@ -17,8 +20,8 @@ class App extends Component {
           a.substr(0, 4)
         )
       )
-        isMobile = true;
-      if (isMobile) {
+        this.state.isMobile = true;
+      if (this.state.isMobile) {
         alert(
           "Hey! Do yourself a favor and don't look at this website on your phone. It's horrific. But I'm not stopping you."
         );
@@ -31,7 +34,7 @@ class App extends Component {
       <>
         <ScrollToTopArrow />
         <div>
-          <Landing />
+          <Landing isMobile={this.state.isMobile} />
           <AboutMe />
           <Projects />
           <Footer />
