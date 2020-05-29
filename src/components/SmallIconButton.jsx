@@ -10,14 +10,25 @@ import "./SmallIconButton.css";
 // - isWebsite
 
 const SmallIconButton = (props) => {
-  return (
-    <IconContext.Provider value={{ className: "icon-button-wrapper" }}>
-      <a href={props.link} target="_blank" rel="noopener noreferrer">
-        {props.isGitHub ? <GitHubIcon /> : null}
-        {props.isWebsite ? <WebsiteIcon /> : null}
-      </a>
-    </IconContext.Provider>
-  );
+  if (props.isMobile) {
+    return (
+      <IconContext.Provider value={{ className: "icon-button-wrapper-mobile" }}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          {props.isGitHub ? <GitHubIcon /> : null}
+          {props.isWebsite ? <WebsiteIcon /> : null}
+        </a>
+      </IconContext.Provider>
+    );
+  } else {
+    return (
+      <IconContext.Provider value={{ className: "icon-button-wrapper" }}>
+        <a href={props.link} target="_blank" rel="noopener noreferrer">
+          {props.isGitHub ? <GitHubIcon /> : null}
+          {props.isWebsite ? <WebsiteIcon /> : null}
+        </a>
+      </IconContext.Provider>
+    );
+  }
 };
 
 export default SmallIconButton;

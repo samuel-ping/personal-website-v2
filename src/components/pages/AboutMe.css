@@ -73,6 +73,7 @@
   background-color: #4d8f6d;
   z-index: 5;
   color: #ffffff;
+  width: 100vw;
 }
 
 .page-header-mobile {
@@ -81,8 +82,6 @@
 }
 
 .description-mobile {
-  /* display: flex;
-  align-items: center; */
   font-size: 6vw;
   margin-top: 0;
   margin-bottom: 3vh;

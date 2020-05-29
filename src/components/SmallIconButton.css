@@ -3,10 +3,18 @@
   text-decoration: none;
   width: 2vw;
   height: 2vw;
-  margin-left: 1vw;
   transition: opacity 0.2s;
 }
 
 .icon-button-wrapper:hover {
   opacity: 0.5;
+}
+
+.icon-button-wrapper-mobile {
+  color: #ffffff;
+  text-decoration: none;
+  width: 8vw;
+  height: 8vw;
+  margin-left: 4vw;
+  transition: opacity 0.2s;
 }

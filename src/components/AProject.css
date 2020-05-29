@@ -1,7 +1,7 @@
 .a-project-wrapper {
   background-color: #4d8f6d;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size: 1.5em;
   margin: 2vh 5vw;
   padding: 3vh 3vw;
@@ -12,11 +12,6 @@
 
 .a-project-wrapper:hover {
   background-color: #184e68;
-}
-
-.a-project-left {
-  display: flex;
-  flex-direction: column;
 }
 
 .a-project-top-wrapper {
@@ -32,6 +27,39 @@
 }
 
 .a-project-technologies {
+  font-weight: 700;
+  margin-top: 2vh;
+}
+
+/* Mobile */
+.a-project-wrapper-mobile {
+  background-color: #4d8f6d;
+  display: flex;
+  flex-direction: column;
+  font-size: 4vw;
+  transition: background-color 0.1s;
+  margin: 4vh 2vw;
+  padding: 2vh 5vw;
+  border-radius: 5px;
+}
+
+.a-project-wrapper-mobile:hover {
+  background-color: #184e68;
+}
+
+.a-project-top-wrapper-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 0.3vh solid #ffffff;
+  margin-bottom: 1vh;
+}
+
+.a-project-title-mobile {
+  font-size: 5vw;
+}
+
+.a-project-technologies-mobile {
   font-weight: 700;
   margin-top: 2vh;
 }

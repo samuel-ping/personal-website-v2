@@ -16,3 +16,23 @@
   display: flex;
   flex-direction: column;
 }
+
+/* Mobile */
+.projects-wrapper-mobile {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8vh;
+}
+
+.projects-header-mobile {
+  font-size: 8vw;
+  font-weight: 600;
+  margin-bottom: 3vh;
+}
+
+.projects-list-container-mobile {
+  display: flex;
+  flex-direction: column;
+}
