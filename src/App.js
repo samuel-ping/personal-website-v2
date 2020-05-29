@@ -23,11 +23,6 @@ class App extends Component {
         )
       )
         this.setState({ isMobile: true });
-      // if (this.state.isMobile) {
-      //   alert(
-      //     "Hey! Do yourself a favor and don't look at this website on your phone. It's horrific. But I'm not stopping you."
-      //   );
-      // }
     })(navigator.userAgent || navigator.vendor || window.opera);
   }
 
