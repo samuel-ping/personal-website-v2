@@ -24,7 +24,7 @@ const AboutMe = (props) => {
         <div className="page-header-mobile" ref={domRef}>
           About Me
         </div>
-        <div className="divider" />
+        <hr className="divider" />
         <div className="description-mobile">
           Hi! I'm Samuel Ping, and I'm a freshman at Rutgers University- New
           Brunswick studying computer science and business. Back in 3rd grade, I
