@@ -12,7 +12,7 @@ class App extends Component {
     this.state = { isMobile: false };
   }
 
-  // detects if the device is mobile. Tablet users will have to suck it up. :p Honestly though who's gonna access my website on a tablet pshh
+  // detects if the device is mobile. Tablet users will have to suck it up. Just kidding but honestly though who's gonna access my website on a tablet pshh
   componentDidMount() {
     ((a) => {
       if (
