@@ -53,13 +53,18 @@ const AProject = (props) => {
       <div className="a-project-wrapper">
         <div className="a-project-left">
           <div className="a-project-top-wrapper">
-            <div className="a-project-title">{props.title}</div>
-            {props.hasGitHub ? (
-              <SmallIconButton isGitHub="true" link={props.githubLink} />
-            ) : null}
-            {props.hasWebsite ? (
-              <SmallIconButton isWebsite="true" link={props.websiteLink} />
-            ) : null}
+            <div className="a-project-top-wrapper-left-side">
+              <span className="a-project-title">{props.title}</span>
+              <span>
+                {props.hasGitHub ? (
+                  <SmallIconButton isGitHub="true" link={props.githubLink} />
+                ) : null}
+                {props.hasWebsite ? (
+                  <SmallIconButton isWebsite="true" link={props.websiteLink} />
+                ) : null}
+              </span>
+            </div>
+            <span className="timeframe">{props.timeframe}</span>
           </div>
           <div className="a-project-description">{props.description}</div>
           {props.description2 ? (

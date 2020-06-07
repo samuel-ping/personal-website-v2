@@ -9,6 +9,7 @@ const Projects = (props) => {
   // githubLink: link to the GitHub repo
   // hasWebsite: whether the project has a website deployed
   // websiteLink: link to the website
+  // timeframe: time period for when I was working on the project
   // description: what the project does
   // description2: how the project is built
   // description3: history of the project and challenges I faced when building it
@@ -18,6 +19,7 @@ const Projects = (props) => {
       title: "(IN PROGRESS) Yelp Review Scraper",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/yelp-review-scraper",
+      timeframe: "May 2020 - Present",
       description:
         "I'm currently working on a Yelp review scraper as an extension to my Food Mood project. I ultimately intend to perform emotion analysis on Yelp Reviews to suggest a more accurate restaurant in Food Mood.",
       description2:
@@ -30,6 +32,7 @@ const Projects = (props) => {
       githubLink: "https://github.com/samuel-ping/food-mood",
       hasWebsite: "true",
       websiteLink: "https://foodmood.samuelping.me",
+      timeframe: "March 2020 - Present",
       description:
         "A web app that takes your photo, detects your visible mood, and suggests a restaurant based off of that mood! The frontend is built with React.js, while the backend uses Express.js and Node.js. The emotions are detected from the photo using Amazon's Rekognition API, and then I search for a restaurant using Yelp's Fusion API. The website is deployed on an AWS EC2 instance, using Nginx as a reverse proxy. Updates to the application are automatically deployed with AWS CodePipeline and CodeDeploy.",
       description2:
@@ -43,6 +46,7 @@ const Projects = (props) => {
       githubLink: "https://github.com/samuel-ping/wildwalk",
       hasWebsite: "true",
       websiteLink: "http://100.26.167.92/",
+      timeframe: "BackyardHacks 2020 (May 2020)",
       description:
         "A web app built for mobile devices, where you can check native species of plants and animals in your state, and upload pictures of them to your collection. You can view your collection to see the past species that you collected.",
       description2:
@@ -56,6 +60,7 @@ const Projects = (props) => {
       githubLink: "https://github.com/samuel-ping/personal-website",
       hasWebsite: "true",
       websiteLink: "https://samuelping.me",
+      timeframe: "April 2020 - Present",
       description:
         "My personal website! I didn't like my first one, so I remade it.",
       description2:
@@ -66,6 +71,7 @@ const Projects = (props) => {
       title: "Rutgers Bus Finder",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/rutgers-bus-finder",
+      timeframe: "HackRU Fall 2019 (October 2020)",
       description:
         "This program takes in the names of any two bus stops at Rutgers, and spits out all the buses that are currently running between those two stops.",
       description2:
@@ -148,8 +154,7 @@ const Projects = (props) => {
             title={myProjects.reviewscraper.title}
             hasGitHub={myProjects.reviewscraper.hasGitHub}
             githubLink={myProjects.reviewscraper.githubLink}
-            hasWebsite={myProjects.reviewscraper.hasWebsite}
-            websiteLink={myProjects.reviewscraper.websiteLink}
+            timeframe={myProjects.reviewscraper.timeframe}
             description={myProjects.reviewscraper.description}
             description2={myProjects.reviewscraper.description2}
             technologies={myProjects.reviewscraper.technologies}
@@ -160,6 +165,7 @@ const Projects = (props) => {
             githubLink={myProjects.foodmood.githubLink}
             hasWebsite={myProjects.foodmood.hasWebsite}
             websiteLink={myProjects.foodmood.websiteLink}
+            timeframe={myProjects.foodmood.timeframe}
             description={myProjects.foodmood.description}
             description2={myProjects.foodmood.description2}
             technologies={myProjects.foodmood.technologies}
@@ -170,6 +176,7 @@ const Projects = (props) => {
             githubLink={myProjects.wildwalk.githubLink}
             hasWebsite={myProjects.wildwalk.hasWebsite}
             websiteLink={myProjects.wildwalk.websiteLink}
+            timeframe={myProjects.wildwalk.timeframe}
             description={myProjects.wildwalk.description}
             description2={myProjects.wildwalk.description2}
             technologies={myProjects.wildwalk.technologies}
@@ -180,6 +187,7 @@ const Projects = (props) => {
             githubLink={myProjects.personalwebsite.githubLink}
             hasWebsite={myProjects.personalwebsite.hasWebsite}
             websiteLink={myProjects.personalwebsite.websiteLink}
+            timeframe={myProjects.personalwebsite.timeframe}
             description={myProjects.personalwebsite.description}
             description2={myProjects.personalwebsite.description2}
             technologies={myProjects.personalwebsite.technologies}
@@ -190,6 +198,7 @@ const Projects = (props) => {
             githubLink={myProjects.rutgersbusfinder.githubLink}
             hasWebsite={myProjects.rutgersbusfinder.hasWebsite}
             websiteLink={myProjects.rutgersbusfinder.websiteLink}
+            timeframe={myProjects.rutgersbusfinder.timeframe}
             description={myProjects.rutgersbusfinder.description}
             description2={myProjects.rutgersbusfinder.description2}
             technologies={myProjects.rutgersbusfinder.technologies}

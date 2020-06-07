@@ -16,10 +16,20 @@
 
 .a-project-top-wrapper {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   align-items: center;
+  justify-content: space-between;
   border-bottom: 0.3vh solid #ffffff;
   margin-bottom: 1vh;
+}
+
+.a-project-top-wrapper-left-side {
+  display: inline-block;
+}
+
+.timeframe {
+  font-size: 1.5vw;
+  font-style: italic;
 }
 
 .a-project-title {
