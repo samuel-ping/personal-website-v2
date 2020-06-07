@@ -16,7 +16,6 @@
 
 .a-project-top-wrapper {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
   justify-content: space-between;
   border-bottom: 0.3vh solid #ffffff;
@@ -24,12 +23,11 @@
 }
 
 .a-project-top-wrapper-left-side {
-  display: inline-block;
+  display: inline;
 }
 
 .timeframe {
   font-size: 1.5vw;
-  font-style: italic;
 }
 
 .a-project-title {
