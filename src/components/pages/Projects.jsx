@@ -91,8 +91,7 @@ const Projects = (props) => {
             title={myProjects.reviewscraper.title}
             hasGitHub={myProjects.reviewscraper.hasGitHub}
             githubLink={myProjects.reviewscraper.githubLink}
-            hasWebsite={myProjects.reviewscraper.hasWebsite}
-            websiteLink={myProjects.reviewscraper.websiteLink}
+            timeframe={myProjects.reviewscraper.timeframe}
             description={myProjects.reviewscraper.description}
             description2={myProjects.reviewscraper.description2}
             technologies={myProjects.reviewscraper.technologies}
@@ -104,6 +103,7 @@ const Projects = (props) => {
             githubLink={myProjects.foodmood.githubLink}
             hasWebsite={myProjects.foodmood.hasWebsite}
             websiteLink={myProjects.foodmood.websiteLink}
+            timeframe={myProjects.foodmood.timeframe}
             description={myProjects.foodmood.description}
             description2={myProjects.foodmood.description2}
             technologies={myProjects.foodmood.technologies}
@@ -115,6 +115,7 @@ const Projects = (props) => {
             githubLink={myProjects.wildwalk.githubLink}
             hasWebsite={myProjects.wildwalk.hasWebsite}
             websiteLink={myProjects.wildwalk.websiteLink}
+            timeframe={myProjects.wildwalk.timeframe}
             description={myProjects.wildwalk.description}
             description2={myProjects.wildwalk.description2}
             technologies={myProjects.wildwalk.technologies}
@@ -126,6 +127,7 @@ const Projects = (props) => {
             githubLink={myProjects.personalwebsite.githubLink}
             hasWebsite={myProjects.personalwebsite.hasWebsite}
             websiteLink={myProjects.personalwebsite.websiteLink}
+            timeframe={myProjects.personalwebsite.timeframe}
             description={myProjects.personalwebsite.description}
             description2={myProjects.personalwebsite.description2}
             technologies={myProjects.personalwebsite.technologies}
@@ -137,6 +139,7 @@ const Projects = (props) => {
             githubLink={myProjects.rutgersbusfinder.githubLink}
             hasWebsite={myProjects.rutgersbusfinder.hasWebsite}
             websiteLink={myProjects.rutgersbusfinder.websiteLink}
+            timeframe={myProjects.rutgersbusfinder.timeframe}
             description={myProjects.rutgersbusfinder.description}
             description2={myProjects.rutgersbusfinder.description2}
             technologies={myProjects.rutgersbusfinder.technologies}

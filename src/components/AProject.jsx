@@ -17,21 +17,26 @@ const AProject = (props) => {
     return (
       <div className="a-project-wrapper-mobile">
         <div className="a-project-top-wrapper-mobile">
-          <div className="a-project-title-mobile">{props.title}</div>
-          {props.hasGitHub ? (
-            <SmallIconButton
-              isMobile="true"
-              isGitHub="true"
-              link={props.githubLink}
-            />
-          ) : null}
-          {props.hasWebsite ? (
-            <SmallIconButton
-              isMobile="true"
-              isWebsite="true"
-              link={props.websiteLink}
-            />
-          ) : null}
+          <div className="a-project-top-wrapper-left-side-mobile">
+            <span className="a-project-title-mobile">{props.title}</span>{" "}
+            <span className="timeframe-mobile">{props.timeframe}</span>
+            <span>
+              {props.hasGitHub ? (
+                <SmallIconButton
+                  isMobile="true"
+                  isGitHub="true"
+                  link={props.githubLink}
+                />
+              ) : null}
+              {props.hasWebsite ? (
+                <SmallIconButton
+                  isMobile="true"
+                  isWebsite="true"
+                  link={props.websiteLink}
+                />
+              ) : null}
+            </span>
+          </div>
         </div>
         <div className="a-project-description-mobile">{props.description}</div>
         {props.description2 ? (

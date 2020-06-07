@@ -65,14 +65,27 @@
 
 .a-project-top-wrapper-mobile {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   border-bottom: 0.3vh solid #ffffff;
   margin-bottom: 1vh;
 }
 
+.a-project-top-wrapper-left-side-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeframe-mobile {
+  font-size: 4vw;
+  margin-bottom: 1vh;
+}
+
 .a-project-title-mobile {
   font-size: 5vw;
+  font-weight: 700;
 }
 
 .a-project-description-mobile a {
