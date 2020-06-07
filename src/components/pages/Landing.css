@@ -61,15 +61,21 @@
 
 /* Mobile */
 .landing-wrapper-mobile {
-  color: #ffffff;
   display: flex;
-  flex-direction: column;
+  color: #ffffff;
   height: 100vh;
   width: 100%;
+  font-weight: 500;
+}
+
+.landing-border-mobile {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-weight: 500;
+  border: #ffffff solid 3px;
+  margin: 2vh 2vh;
 }
 
 .name-intro-mobile {
