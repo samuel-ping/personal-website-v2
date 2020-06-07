@@ -24,7 +24,7 @@ const Projects = (props) => {
         "I'm currently working on a Yelp review scraper as an extension to my Food Mood project. I ultimately intend to perform emotion analysis on Yelp Reviews to suggest a more accurate restaurant in Food Mood.",
       description2:
         "At the moment, I'm working with Python and Beautiful Soup to scrape Yelp Reviews and compile them into a large dataset for my eventual machine learning model.",
-      technologies: "Python",
+      technologies: "Python, Beautiful Soup 4",
     },
     foodmood: {
       title: "Food Mood v2",
@@ -36,7 +36,7 @@ const Projects = (props) => {
       description:
         "A web app that takes your photo, detects your visible mood, and suggests a restaurant based off of that mood! The frontend is built with React.js, while the backend uses Express.js and Node.js. The emotions are detected from the photo using Amazon's Rekognition API, and then I search for a restaurant using Yelp's Fusion API. The website is deployed on an AWS EC2 instance, using Nginx as a reverse proxy. Updates to the application are automatically deployed with AWS CodePipeline and CodeDeploy.",
       description2:
-        "The <a href='https://oldmyfoodmood.herokuapp.com' target='_blank' rel='noopener noreferrer'>original Food Mood</a> was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but I quickly learned that I had no way of hiding my API keys from the client. After much frustration, I found Node.js and Express.js and decided to hail mary it and learn how to create a backend. This is one of my greatest accomplishments, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended (I was accepted into the summit!), I decided to continue working on this project. I revamped the whole website with React and deployed it on an AWS EC2 Ubuntu instance to avoid the slow loading times of Heroku.",
+        "The <a href='https://oldmyfoodmood.herokuapp.com' target='_blank' rel='noopener noreferrer'>original Food Mood</a> was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but I quickly learned that I had no way of hiding my API keys from the client. After much frustration, I found Node.js and Express.js and decided to hail mary it and learn how to create a backend. I'm really proud of this project, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended (I was accepted into the summit!), I decided to continue working on this project. I revamped the whole website with React and deployed it on an AWS EC2 Ubuntu instance to avoid the yucky slow loading times of Heroku.",
       technologies:
         "React.js, Express.js, Node.js, Nginx, AWS EC2, CodePipeline & CodeDeploy",
     },
