@@ -22,7 +22,9 @@ const Projects = (props) => {
       timeframe:
         "Capital One Software Engineering Summit Hackathon (August 2020)",
       description:
-        "A web application that calculates your credit score and generates feedback based on the five main categories that make up your credit score. 3rd place finalist for the Capital One Software Engineering Summit hackathon!",
+        "A web application that calculates your credit score and generates feedback based on the five main categories that make up your credit score.",
+      description2:
+        "3rd place finalist for the Capital One Software Engineering Summit hackathon!",
       technologies: "React.js, Python, AWS API Gateway & Lambda",
     },
     reviewscraper: {
