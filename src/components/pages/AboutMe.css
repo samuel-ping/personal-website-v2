@@ -10,7 +10,7 @@
 }
 
 .page-header {
-  font-size: 4vw;
+  font-size: 4em;
   animation: fadeInFromLeft 0.8s ease-in-out 0.2s both;
   opacity: 0;
 }
@@ -48,7 +48,7 @@
   align-items: center;
   height: 50vh;
   width: 45vw;
-  font-size: 1.7vw;
+  font-size: 1.5em;
   opacity: 0;
   animation: fadeInFromRight 0.8s ease-in-out 0.2s both;
 }

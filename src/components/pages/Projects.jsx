@@ -19,7 +19,8 @@ const Projects = (props) => {
       title: "Street Cred",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/street-cred",
-      timeframe: "August 2020",
+      timeframe:
+        "Capital One Software Engineering Summit Hackathon (August 2020)",
       description:
         "A web application that calculates your credit score and generates feedback based on the five main categories that make up your credit score. 3rd place finalist for the Capital One Software Engineering Summit hackathon!",
       technologies: "React.js, Python, AWS API Gateway & Lambda",
@@ -95,6 +96,18 @@ const Projects = (props) => {
         <div className="projects-list-container-mobile">
           <AProject
             isMobile={props.isMobile}
+            title={myProjects.foodmood.title}
+            hasGitHub={myProjects.foodmood.hasGitHub}
+            githubLink={myProjects.foodmood.githubLink}
+            hasWebsite={myProjects.foodmood.hasWebsite}
+            websiteLink={myProjects.foodmood.websiteLink}
+            timeframe={myProjects.foodmood.timeframe}
+            description={myProjects.foodmood.description}
+            description2={myProjects.foodmood.description2}
+            technologies={myProjects.foodmood.technologies}
+          />
+          <AProject
+            isMobile={props.isMobile}
             title={myProjects.streetcred.title}
             hasGitHub={myProjects.streetcred.hasGitHub}
             githubLink={myProjects.streetcred.githubLink}
@@ -111,18 +124,6 @@ const Projects = (props) => {
             description={myProjects.reviewscraper.description}
             description2={myProjects.reviewscraper.description2}
             technologies={myProjects.reviewscraper.technologies}
-          />
-          <AProject
-            isMobile={props.isMobile}
-            title={myProjects.foodmood.title}
-            hasGitHub={myProjects.foodmood.hasGitHub}
-            githubLink={myProjects.foodmood.githubLink}
-            hasWebsite={myProjects.foodmood.hasWebsite}
-            websiteLink={myProjects.foodmood.websiteLink}
-            timeframe={myProjects.foodmood.timeframe}
-            description={myProjects.foodmood.description}
-            description2={myProjects.foodmood.description2}
-            technologies={myProjects.foodmood.technologies}
           />
           <AProject
             isMobile={props.isMobile}
@@ -170,6 +171,17 @@ const Projects = (props) => {
         <hr className="divider" />
         <div className="projects-list-container">
           <AProject
+            title={myProjects.foodmood.title}
+            hasGitHub={myProjects.foodmood.hasGitHub}
+            githubLink={myProjects.foodmood.githubLink}
+            hasWebsite={myProjects.foodmood.hasWebsite}
+            websiteLink={myProjects.foodmood.websiteLink}
+            timeframe={myProjects.foodmood.timeframe}
+            description={myProjects.foodmood.description}
+            description2={myProjects.foodmood.description2}
+            technologies={myProjects.foodmood.technologies}
+          />
+          <AProject
             title={myProjects.streetcred.title}
             hasGitHub={myProjects.streetcred.hasGitHub}
             githubLink={myProjects.streetcred.githubLink}
@@ -185,17 +197,6 @@ const Projects = (props) => {
             description={myProjects.reviewscraper.description}
             description2={myProjects.reviewscraper.description2}
             technologies={myProjects.reviewscraper.technologies}
-          />
-          <AProject
-            title={myProjects.foodmood.title}
-            hasGitHub={myProjects.foodmood.hasGitHub}
-            githubLink={myProjects.foodmood.githubLink}
-            hasWebsite={myProjects.foodmood.hasWebsite}
-            websiteLink={myProjects.foodmood.websiteLink}
-            timeframe={myProjects.foodmood.timeframe}
-            description={myProjects.foodmood.description}
-            description2={myProjects.foodmood.description2}
-            technologies={myProjects.foodmood.technologies}
           />
           <AProject
             title={myProjects.wildwalk.title}
