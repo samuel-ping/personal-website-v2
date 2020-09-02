@@ -15,15 +15,22 @@ const Projects = (props) => {
   // description3: history of the project and challenges I faced when building it
   // technologies: what I used to build the project
   const myProjects = {
+    streetcred: {
+      title: "Street Cred",
+      hasGitHub: "true",
+      githubLink: "https://github.com/samuel-ping/street-cred",
+      timeframe: "August 2020",
+      description:
+        "A web application that calculates your credit score and generates feedback based on the five main categories that make up your credit score. 3rd place finalist for the Capital One Software Engineering Summit hackathon!",
+      technologies: "React.js, Python, AWS API Gateway & Lambda",
+    },
     reviewscraper: {
-      title: "(IN PROGRESS) Yelp Review Scraper",
+      title: "Yelp Review Scraper",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/yelp-review-scraper",
       timeframe: "May 2020 - Present",
       description:
-        "I'm currently working on a Yelp review scraper as an extension to my Food Mood project. I ultimately intend to perform emotion analysis on Yelp Reviews to suggest a more accurate restaurant in Food Mood.",
-      description2:
-        "At the moment, I'm working with Python and Beautiful Soup to scrape Yelp Reviews and compile them into a large dataset for my eventual machine learning model.",
+        "I created a Yelp review scraper that is intended to gather a large dataset of Yelp Reviews, as a possible extension for Food Mood.",
       technologies: "Python, Beautiful Soup 4",
     },
     foodmood: {
@@ -86,6 +93,15 @@ const Projects = (props) => {
         <div className="projects-header-mobile">Projects</div>
         <hr className="divider" />
         <div className="projects-list-container-mobile">
+          <AProject
+            isMobile={props.isMobile}
+            title={myProjects.streetcred.title}
+            hasGitHub={myProjects.streetcred.hasGitHub}
+            githubLink={myProjects.streetcred.githubLink}
+            timeframe={myProjects.streetcred.timeframe}
+            description={myProjects.streetcred.description}
+            technologies={myProjects.streetcred.technologies}
+          />
           <AProject
             isMobile={props.isMobile}
             title={myProjects.reviewscraper.title}
@@ -153,6 +169,14 @@ const Projects = (props) => {
         <div className="projects-header">Projects</div>
         <hr className="divider" />
         <div className="projects-list-container">
+          <AProject
+            title={myProjects.streetcred.title}
+            hasGitHub={myProjects.streetcred.hasGitHub}
+            githubLink={myProjects.streetcred.githubLink}
+            timeframe={myProjects.streetcred.timeframe}
+            description={myProjects.streetcred.description}
+            technologies={myProjects.streetcred.technologies}
+          />
           <AProject
             title={myProjects.reviewscraper.title}
             hasGitHub={myProjects.reviewscraper.hasGitHub}
