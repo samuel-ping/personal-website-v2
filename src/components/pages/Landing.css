@@ -31,7 +31,7 @@
 }
 
 .name-intro {
-  font-size: 4vw;
+  font-size: 4em;
 }
 
 .tagline {
@@ -39,7 +39,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 2vw;
+  font-size: 2em;
   margin-bottom: 4vh;
 }
 
