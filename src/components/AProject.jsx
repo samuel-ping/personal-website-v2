@@ -1,6 +1,6 @@
 import React from "react";
-import SmallIconButton from "./SmallIconButton";
-import "./AProject.css";
+import SmallIconButton from "components/SmallIconButton";
+import "components/AProject.css";
 
 // AProject takes the following props:
 // - title

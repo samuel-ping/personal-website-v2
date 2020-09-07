@@ -1,5 +1,5 @@
 import React from "react";
-import "./AboutMe.css";
+import "pages/AboutMe.css";
 
 const AboutMe = (props) => {
   const myDescription = {

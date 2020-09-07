@@ -1,7 +1,7 @@
 import React from "react";
-import Iconbar from "../Iconbar";
-import Image from "../Image";
-import "./Landing.css";
+import Iconbar from "components/Iconbar";
+import Image from "components/Image";
+import "pages/Landing.css";
 
 const Landing = (props) => {
   if (props.isMobile) {

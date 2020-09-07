@@ -1,6 +1,6 @@
 import React from "react";
-import IconBarButton from "./IconBarButton";
-import "./Iconbar.css";
+import IconBarButton from "components/IconBarButton";
+import "components/Iconbar.css";
 
 const Iconbar = (props) => {
   if (props.isMobile) {

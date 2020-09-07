@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Portrait from "../assets/portrait-full.JPEG";
-import PortraitThumbnail from "../assets/portrait-thumbnail.JPEG";
-import "./Image.css";
+import Portrait from "assets/portrait-full.JPEG";
+import PortraitThumbnail from "assets/portrait-thumbnail.JPEG";
+import "components/Image.css";
 
 const Image = (props) => {
   const [isLoaded, setIsLoaded] = useState(false);

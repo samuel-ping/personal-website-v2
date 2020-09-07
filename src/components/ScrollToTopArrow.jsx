@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { IconContext } from "react-icons";
 import { FiArrowUpCircle as ArrowIcon } from "react-icons/fi";
-import "./ScrollToTopArrow.css";
+import "components/ScrollToTopArrow.css";
 
 class ScrollToTopArrow extends Component {
   constructor(props) {
