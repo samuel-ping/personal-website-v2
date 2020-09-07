@@ -2,7 +2,7 @@ import React from "react";
 import { IconContext } from "react-icons";
 import { FaGithub as GitHubIcon } from "react-icons/fa";
 import { FiMonitor as WebsiteIcon } from "react-icons/fi";
-import "./SmallIconButton.css";
+import "components/SmallIconButton.css";
 
 // Takes the following props:
 // - link

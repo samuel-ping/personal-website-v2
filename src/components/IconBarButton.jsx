@@ -6,8 +6,8 @@ import {
   FaPortrait as ResumeIcon,
 } from "react-icons/fa";
 import { MdEmail as EmailIcon } from "react-icons/md";
-import Resume from "../assets/resume.pdf";
-import "./IconBarButton.css";
+import Resume from "assets/resume.pdf";
+import "components/IconBarButton.css";
 
 const IconBarButton = (props) => {
   if (props.isMobile) {

@@ -1,6 +1,6 @@
 import React from "react";
-import AProject from "../AProject";
-import "./Projects.css";
+import AProject from "components/AProject";
+import "pages/Projects.css";
 
 const Projects = (props) => {
   // JSON variable that contains data for all of my projects and their details

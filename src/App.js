@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import ScrollToTopArrow from "./components/ScrollToTopArrow";
-import Landing from "./components/pages/Landing";
-import AboutMe from "./components/pages/AboutMe";
-import Projects from "./components/pages/Projects";
-import Footer from "./components/pages/Footer";
-import "./App.css";
+import ScrollToTopArrow from "components/ScrollToTopArrow";
+import Landing from "pages/Landing";
+import AboutMe from "pages/AboutMe";
+import Projects from "pages/Projects";
+import Footer from "pages/Footer";
+import "App.css";
 
 class App extends Component {
   constructor(props) {
