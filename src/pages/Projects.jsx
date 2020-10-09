@@ -31,22 +31,22 @@ const Projects = (props) => {
       title: "Yelp Review Scraper",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/yelp-review-scraper",
-      timeframe: "May 2020 - Present",
+      timeframe: "May 2020 - June 2020",
       description:
-        "I created a Yelp review scraper that is intended to gather a large dataset of Yelp Reviews, as a possible extension for Food Mood.",
+        "I created a Yelp review scraper that is intended to gather a large dataset of Yelp Reviews. While it works, it eventually gets stopped by Yelp's CAPTCHA :( Oh well, if I ever need a Yelp dataset, I think I'll have to use Kaggle.",
       technologies: "Python, Beautiful Soup 4",
     },
     foodmood: {
-      title: "Food Mood v2",
+      title: "Food Mood v3",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/food-mood",
       hasWebsite: "true",
       websiteLink: "https://foodmood.samuelping.me",
-      timeframe: "March 2020 - Present",
+      timeframe: "March 2020 - August 2020",
       description:
-        "A web app that takes your photo, detects your visible mood, and suggests a restaurant based off of that mood! The frontend is built with React.js, while the backend uses Express.js and Node.js. The emotions are detected from the photo using Amazon's Rekognition API, and then I search for a restaurant using Yelp's Fusion API. The website is deployed on an AWS EC2 instance, using Nginx as a reverse proxy. Updates to the application are automatically deployed with AWS CodePipeline and CodeDeploy.",
+        "v2: A web app that takes your photo, detects your visible mood, and suggests a restaurant based off of that mood! The frontend is built with React.js, while the backend uses Express.js and Node.js. The emotions are detected from the photo using Amazon's Rekognition API, and then I search for a restaurant using Yelp's Fusion API. The website is deployed on an AWS EC2 instance, using Nginx as a reverse proxy. Updates to the application are automatically deployed with AWS CodePipeline and CodeDeploy.",
       description2:
-        "The <a href='https://oldmyfoodmood.herokuapp.com' target='_blank' rel='noopener noreferrer'>original Food Mood</a> was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but I quickly learned that I had no way of hiding my API keys from the client. After much frustration, I found Node.js and Express.js and decided to hail mary it and learn how to create a backend. I'm really proud of this project, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended (I was accepted into the summit!), I decided to continue working on this project. I revamped the whole website with React and deployed it on an AWS EC2 Ubuntu instance to avoid the yucky slow loading times of Heroku.",
+        "v1: The <a href='https://oldmyfoodmood.herokuapp.com' target='_blank' rel='noopener noreferrer'>original Food Mood</a> was my first ever website, and I built it as an entry to Capital One's Software Engineering Summit challenge. I originally was going to use solely HTML, CSS, and JavaScript, but I quickly learned that I had no way of hiding my API keys from the client. After much frustration, I found Node.js and Express.js and decided to hail mary it and learn how to create a backend. I'm really proud of this project, because I decided to pursue this project at the last minute and had less than two days to complete it. After the competition ended (I was accepted into the summit!), I decided to continue working on this project. I revamped the whole website with React and deployed it on an AWS EC2 Ubuntu instance to avoid the yucky slow loading times of Heroku.",
       technologies:
         "React.js, Express.js, Node.js, Nginx, AWS EC2, CodePipeline & CodeDeploy",
     },
@@ -81,7 +81,7 @@ const Projects = (props) => {
       title: "Rutgers Bus Finder",
       hasGitHub: "true",
       githubLink: "https://github.com/samuel-ping/rutgers-bus-finder",
-      timeframe: "HackRU Fall 2019 (October 2020)",
+      timeframe: "HackRU Fall 2019 (October 2019)",
       description:
         "This program takes in the names of any two bus stops at Rutgers, and spits out all the buses that are currently running between those two stops.",
       description2:
