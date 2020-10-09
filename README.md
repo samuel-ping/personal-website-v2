@@ -1,3 +1,3 @@
 # Personal Website
 
-My personal website! Built with using React.js.
+My personal website! Built with React.js.
